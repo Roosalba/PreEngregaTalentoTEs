@@ -209,3 +209,48 @@ object-fit: cover;
     background-color: #8a79a8;
     border-radius: 1rem;
 }
+
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.titulo-contacto {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.campo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.campo-form label {
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.campo-form input,
+.campo-form textarea {
+    width: 100%;
+    padding: 1.2rem;
+    border: none;
+    border-radius: 0.8rem;
+    font-size: 1.5rem;
+    font-family: inherit;
+}
+
+.formulario-contacto .btn {
+    align-self: center;
+    width: 50%;
+    margin-top: 1rem;
+}
+
+.contacto button,
+.formulario-contacto .btn {
+    margin-top: 2rem;
+}
