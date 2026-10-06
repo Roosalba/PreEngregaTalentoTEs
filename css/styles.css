@@ -32,35 +32,36 @@ align-items: center;
 }
 
 h1{
-    font-size: 3rem;
-    font-weight: 800;
-    line-height: 1.15;
-    margin: 3rem 0;
+    color: #fff;
+    font-size:5rem;
+    font-weight: 700;
+    line-height: 1.8;
+    margin: 2.5rem 0;
 }
 
 h2{
-color: #fff7fb;
-font-size: 2.4rem;
+color: #130e57;
+font-size: 4rem;
 font-weight: 700;
 line-height: 1.2;
 text-align: center;
-margin: 3rem 0;
+margin: 2.5rem 0;
 }
 
 .btn{
-    border: none;
-    font-size: 1.6rem;
+    border: solid rgb(43, 2, 25);
+    font-size: 1.4rem;
     font-weight: bold;
-    padding: 1.rem;
-    border-radius: 1rem;
+    padding: 1.5rem;
+    border-radius:2rem;
+    cursor: pointer;
 }
 
 
 header,footer{
-background: #5c4a7a;
-color: #fff7fb;
+background: rgb(43, 2, 25);
+color: #fff;
 width: 100%;
-
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -74,7 +75,7 @@ footer{
 
 
 .div-logo{
-    margin-left:2rem ;
+    margin-left:3rem;
     font-weight: bold;
 }
 
@@ -84,7 +85,7 @@ text-decoration: none;
 font-size: 3rem;
 color:inherit;
 display: inline-block;
-padding: 2rem;
+padding: 3rem;
 }
 
 .header-nav{
@@ -96,7 +97,17 @@ padding: 2rem;
 footer .footer-list{
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 0.1rem;
+}
+
+.footer-list li{
+ padding: 0.5rem;   
+}
+
+
+.footer-list img{
+    width:5rem ;
+    padding: 0.3rem;
 }
 
 
@@ -109,7 +120,7 @@ footer .footer-list{
 }
 
 .bg-secondary {
-  background-color: #f2c66d;
+  background-color: #8a125a;
 }
 
 .text-light {
@@ -117,11 +128,12 @@ footer .footer-list{
 }
 
 .text-dark {
-  color: #2a1e35;
+  color: #fff;
+  text-align: center;
 }
 
 .text-secondary {
-  color: #f2c66d;
+  color: #020107;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -150,16 +162,19 @@ footer .footer-list{
 .contenedor-tarjetas{
 display: flex;
 justify-content: center;
-gap: 2rem;
+gap: 3rem;
 flex-wrap: wrap;
+align-items: stretch
+
 
 }
 
 
 .card{
+   
     background-color: #8a79a8;
-    width: 30rem;
-    border-radius: 1rem;
+    width: 38rem;
+    border-radius: 0.8rem;
     overflow: hidden;
 
     display: flex;
@@ -167,5 +182,16 @@ flex-wrap: wrap;
     align-items: center;
     gap: 2rem;
     padding-bottom: 2rem;
+    
 }
 
+.card img{
+ width: 100%;   
+ height: 40rem;
+object-fit: cover;
+
+}
+
+.card p:last-of-type {
+    margin-top: auto;
+}
