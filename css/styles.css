@@ -245,12 +245,31 @@ object-fit: cover;
 }
 
 .formulario-contacto .btn {
+    margin-top: 2rem;
     align-self: center;
-    width: 50%;
-    margin-top: 1rem;
 }
 
 .contacto button,
 .formulario-contacto .btn {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
+
+/* -------------------------------------------------------------------------- */
+/*                                    LOGO                                    */
+/* -------------------------------------------------------------------------- */
+.logo {
+    text-decoration: none;
+    font-size: 3rem;
+    color: inherit;
+    display: inline-flex; 
+    align-items: center;   
+    gap: 1rem;              
+    padding: 2rem;
+}
+
+
+.img-logo {
+    height:4.5rem;
+    width: auto;
+    object-fit: contain;
+    }
